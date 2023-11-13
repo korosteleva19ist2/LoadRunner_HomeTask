@@ -179,7 +179,7 @@ int randNumber;
 	lr_save_string(lr_paramarr_random("seatPref"),"seat_Pref");
 	lr_save_string(lr_paramarr_random("seatType"),"seat_Type");
 	
-	//проверка, что города отправления и прибытия разные
+	//ГЇГ°Г®ГўГҐГ°ГЄГ , Г·ГІГ® ГЈГ®Г°Г®Г¤Г  Г®ГІГЇГ°Г ГўГ«ГҐГ­ГЁГї ГЁ ГЇГ°ГЁГЎГ»ГІГЁГї Г°Г Г§Г­Г»ГҐ
 	while(strcmp(lr_eval_string("{depart_City}"),lr_eval_string("{arrive_City}"))==0)
 	{		
 		lr_save_string(lr_paramarr_random("departcity"),"arrive_City");
@@ -194,8 +194,8 @@ int randNumber;
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 
-	//randNumber = rand()%4 + 1;  	
-	//lr_save_int(randNumber,"numPassengerRand");
+	randNumber = rand()%4 + 1;  	
+	lr_save_int(randNumber,"numPassengerRand");
 	
 	lr_think_time(5);
 
@@ -237,7 +237,7 @@ int randNumber;
 
 	lr_save_string(lr_paramarr_random("outboundflighting"),"outboundFlight");
 	
-		//проверка открытия нужной страницы
+		//ГЇГ°Г®ГўГҐГ°ГЄГ  Г®ГІГЄГ°Г»ГІГЁГї Г­ГіГ¦Г­Г®Г© Г±ГІГ°Г Г­ГЁГ¶Г»
 	web_reg_find("Text=Payment Details",LAST);
 	
 	web_submit_data("reservations.pl_2",
@@ -276,18 +276,18 @@ int randNumber;
 	lr_think_time(5);
 
 
-	//получаем формулировку данных о рейсе
+	//ГЇГ®Г«ГіГ·Г ГҐГ¬ ГґГ®Г°Г¬ГіГ«ГЁГ°Г®ГўГЄГі Г¤Г Г­Г­Г»Гµ Г® Г°ГҐГ©Г±ГҐ
 	web_reg_save_param("fligting",
 		"LB={departDate} : ",
 		"RB=\.",
 		LAST);
 
 
-	//проверка открытия нужной страницы
+	//ГЇГ°Г®ГўГҐГ°ГЄГ  Г®ГІГЄГ°Г»ГІГЁГї Г­ГіГ¦Г­Г®Г© Г±ГІГ°Г Г­ГЁГ¶Г»
 	web_reg_find("Text=Thank you for booking through Web Tours",LAST);
-	//проверка корректного использования карты клиента
+	//ГЇГ°Г®ГўГҐГ°ГЄГ  ГЄГ®Г°Г°ГҐГЄГІГ­Г®ГЈГ® ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГї ГЄГ Г°ГІГ» ГЄГ«ГЁГҐГ­ГІГ 
 	web_reg_find("Text=Total Charged to Credit Card # {creditCard}",LAST);
-	//проверка верно указанных городов
+	//ГЇГ°Г®ГўГҐГ°ГЄГ  ГўГҐГ°Г­Г® ГіГЄГ Г§Г Г­Г­Г»Гµ ГЈГ®Г°Г®Г¤Г®Гў
 	web_reg_find("Text=leaves {depart_City}  for {arrive_City}",LAST);
 	
 	if(randNumber==1)
