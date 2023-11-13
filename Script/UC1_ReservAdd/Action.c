@@ -284,7 +284,7 @@ int randNumber;
 
 
 	//ïðîâåðêà îòêðûòèÿ íóæíîé ñòðàíèöû
-	web_reg_find("Text=Thank you for booking through Web Tours",LAST);
+	web_reg_find("Text=<B>Thank you for booking through Web Tours.</B>",LAST);
 	//ïðîâåðêà êîððåêòíîãî èñïîëüçîâàíèÿ êàðòû êëèåíòà
 	web_reg_find("Text=Total Charged to Credit Card # {creditCard}",LAST);
 	//ïðîâåðêà âåðíî óêàçàííûõ ãîðîäîâ
