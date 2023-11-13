@@ -1,0 +1,13 @@
+[t8]
+FileName1=t8.json
+URL1=http://update.googleapis.com/service/update2/json?cup2key=13:mbeXXqmH1RFKsg7F2LMVNp83sDh8wWeUI864UUabVoo&cup2hreq=e5d74f0041942bd4fc9011f73d096f779f3a570e02095f42b175cd2bc9a2eb16
+Total=2
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=t8_RequestBody.txt
+ResponseHeaderFile=t8_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_8.xml
+FileName2=t8_gtsr1.cer
+URL2=http://pki.goog/repo/certs/gtsr1.der
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+[t2]
+FileName1=t2.json
+URL1=http://update.googleapis.com/service/update2/json?cup2key=13:WSvi7ZS8efNE3pn_iKNafCE32e2vOCgdJhxrFkLtzI4&cup2hreq=598e4934d8a202cdf2ead57bd455c2be24e6618c8e72167807e6c07ca04e472a
+Total=2
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=t2_RequestBody.txt
+ResponseHeaderFile=t2_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_2.xml
+FileName2=t2_gtsr1.cer
+URL2=http://pki.goog/repo/certs/gtsr1.der
+[ProtocolInfo]
+ProtocolId=QTWeb

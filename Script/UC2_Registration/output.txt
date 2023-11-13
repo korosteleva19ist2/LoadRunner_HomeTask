@@ -1,0 +1,226 @@
+Virtual User Script started at: 13.11.2023 15:44:45
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\VuGen\Scripts1\UC2_Registration\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(8): Notify: Transaction "UC2_Registration" started.
+Action.c(16): Notify: Saving Parameter "login = vgziovuei".
+Action.c(17): Notify: Saving Parameter "password = 552122341".
+Action.c(19): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(19): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(22): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(22): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(25): web_remove_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(25): Previous automatically added web header for "Sec-Fetch-Dest" removed  	[MsgId: MMSG-26587]
+Action.c(25): web_remove/revert_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(27): web_remove_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(27): Previous automatically added web header for "Sec-Fetch-Site" removed  	[MsgId: MMSG-26587]
+Action.c(27): web_remove/revert_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(29): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(29): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(32): web_remove_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(32): Previous automatically added web header for "Sec-Fetch-Mode" removed  	[MsgId: MMSG-26587]
+Action.c(32): web_remove/revert_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(34): web_add_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(34): web_add_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(37): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(37): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(40): web_add_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+Action.c(40): web_add_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+Action.c(43): web_add_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+Action.c(43): web_add_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+Action.c(46): web_add_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+Action.c(46): web_add_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+Action.c(51): Notify: Transaction "StartWebTours" started.
+../fileDat/lib.h(39): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+../fileDat/lib.h(39): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+../fileDat/lib.h(50): web_reg_find started  	[MsgId: MMSG-26355]
+../fileDat/lib.h(50): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../fileDat/lib.h(52): web_url("WebTours") started  	[MsgId: MMSG-26355]
+../fileDat/lib.h(52): Detected non-resource "http://localhost:1080/WebTours/header.html" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
+../fileDat/lib.h(52): Detected non-resource "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
+../fileDat/lib.h(52): Downloading resource "http://pki.goog/repo/certs/gts1c3.der" (specified by argument number 10)  	[MsgId: MMSG-26577]
+../fileDat/lib.h(52): Found resource "http://localhost:1080/WebTours/images/hp_logo.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+../fileDat/lib.h(52): Found resource "http://localhost:1080/WebTours/images/webtours.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+../fileDat/lib.h(52): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+../fileDat/lib.h(52): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+../fileDat/lib.h(52): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+../fileDat/lib.h(52): Notify: Saving Parameter "userSession = 137697.81182665HAiciDVpVQfiDDDDtctQzpQiHVHf".
+../fileDat/lib.h(52): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+../fileDat/lib.h(52): web_url("WebTours") was successful, 11383 body bytes, 3107 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(55): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(55): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(57): web_add_header("X-Goog-Update-AppId") started  	[MsgId: MMSG-26355]
+Action.c(57): web_add_header("X-Goog-Update-AppId") was successful  	[MsgId: MMSG-26392]
+Action.c(61): web_add_header("X-Goog-Update-Interactivity") started  	[MsgId: MMSG-26355]
+Action.c(61): web_add_header("X-Goog-Update-Interactivity") was successful  	[MsgId: MMSG-26392]
+Action.c(64): web_add_header("X-Goog-Update-Updater") started  	[MsgId: MMSG-26355]
+Action.c(64): web_add_header("X-Goog-Update-Updater") was successful  	[MsgId: MMSG-26392]
+Action.c(67): web_custom_request("json") started  	[MsgId: MMSG-26355]
+Action.c(67): Warning: The string '"fp":"1.a2abb5cf57d3ad529ade67df01567446c6c6a5225b29715119e17c0e0aea6c03"' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string 'ef6686b6-dda2-4ebb-89cb-fea89b3aca6f' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '"fp":"1.70038c5037d100135595e4ab2ff64caeb8844cdd03e6408289563fc67f952066"' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '33d89b7b-90d1-42e9-8b26-9da48e1dece1' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '"fp":"1.3e4f959036fef1cae2b1f426864a23f11caae1c96a2816523f2daf4213c3cc73"' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string 'abb8370b-531b-40c0-bb29-f3328d120292' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '934b6572-6a63-453c-aa6c-5d8525cc6828' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '"fp":"1.a8a79d350c2a5e3bc36226633a8e0bed0dfab184e77f38fc8f0820ebacf8eafc"' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '19afe296-7a1c-4040-8bec-ba0c91522b79' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '"fp":"1.8ee63837f1ee150d203c0303892a939907d3ee9ae14f81a72965b6707fad80d5"' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string 'ff1111c9-5b89-42ea-8bc6-f2ed9bb42404' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string 'ce62dc7e-466d-4e46-8aaa-97d6d6756e81' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '"fp":"1.b6be680b524ea584c927bafd387e50e0ccbfdcbbbda89fb1e2386f02b9e0d01e"' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '33bf2148-a0f4-4631-a617-bb66857feff6' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '"fp":"1.a451a5689ab6b8e94d4392b9908239cafb9736f64539ed9d0574790665a4f2a3"' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '7b9ec673-265f-433f-becc-4972cbda7978' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '"fp":"1.545666a4efd056351597bb386aea1368105ededc976ed5650d8682daab9f37ff"' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '0ee59ebe-a11e-4964-b7c9-a4487be3b521' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '"fp":"1.155637bf91846d52fe65f89b24f3d775d0f05d6b0a72569cf89a4e8d205976a7"' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '99d36acd-098e-4953-bbba-22aeb1b9ff04' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '"fp":"1.aeedb246d19256a956fedaa89fb62423ae5bd8855a2a1f3189161cf045645a19"' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string 'e9ccd359-b726-4051-aff2-71341a4cb6a2' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '"fp":"1.6f6bc93dcd62dc251850d2ff458fda96083ceb7fbe8eeb11248b8485ef2aea23"' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '5423a0a0-8e42-4ffd-b274-81523a27b3ae' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '"fp":"1.d777e561d401292893abda887af337f2d2e9755e47dd4a42402130484d09429b"' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '8c8cd92a-d063-405d-ad40-4aafa0ecfba1' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '"fp":"1.3a345dbd2774298fd2aecaacfa6d0e55f9bfe8cf378aad2f41a85a001592b789"' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string 'f671aeb2-6bc7-461b-bd2e-f87399323566' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '"fp":"1.3eb16d6c28b502ac4cfee8f4a148df05f4d93229fa36a71db8b08d06329ff18a"' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string 'de381f8e-8742-4592-aeb7-64735bdcae65' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '"fp":"1.4a0d852651ff385640f359d5b9d1c2f04f765d499276a119b34fdba417193d68"' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '5e42ca1a-82a8-4cc4-adfd-d794926fb8f2' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '"fp":"1.c900ba9a2d8318263fd43782ee6fd5fb50bad78bf0eb2c972b5922c458af45ed"' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '34205b46-d34d-4e93-8ce9-33fd8d678ace' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '"fp":"1.cd1978742a4afdbaaa15bf712d5c90bef4144caa99024df98f6a9ad58043ae85"' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '618c9dc1-3a4a-4750-b43b-6eee5329d411' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '"fp":"1.c64c9c1008f3ba5f6e18b3ca524bc98dcd8acfae0a2720a8f1f3ef0f8d643d05"' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string 'd0a04659-5b8e-4852-ab95-ee0d50beb7bc' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '"fp":"1.d68a1e6d53e787feb3bcab12c5e7e76ade2594add8c77084503cd288e460a838"' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string 'f00455d0-37a7-441f-ba29-ee0b21d29be8' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '"avx":true,"physmemory":8,"sse":true,"sse2":true,"sse3":true,"sse41":true,"sse42":true,"ssse3":true' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '"arch":"x86_64","platform":"Windows","version":"10.0.19045.3570"' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '08e141b2-032c-4eb3-a656-623ff762f4a5' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string 'db364f64-3c8d-4250-9e8a-0590f19f239d' with parameter delimiters is not a parameter.
+Action.c(67): Warning: The string '"autoupdatecheckenabled":true,"ismachine":true,"lastchecked":0,"laststarted":0,"name":"Omaha","updatepolicy":-1,"version":"1.3.36.312"' with parameter delimiters is not a parameter.
+Action.c(67): Downloading resource "http://pki.goog/repo/certs/gtsr1.der" (specified by argument number 13)  	[MsgId: MMSG-26577]
+Action.c(67): Warning -26604: Unsupported "Content-Encoding"  	[MsgId: MWAR-26604]
+Action.c(67): web_custom_request("json") highest severity level was "warning", 3303 body bytes, 1824 header bytes  	[MsgId: MMSG-26388]
+Action.c(100): Notify: Transaction "StartWebTours" ended with a "Pass" status (Duration: 0,5243 Wasted Time: 0,1312).
+Action.c(105): Notify: Transaction "ToRegistrationPage" started.
+Action.c(107): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(107): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(110): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(110): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(113): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(113): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(116): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(116): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(119): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(119): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(122): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+Action.c(122): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+Action.c(125): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+Action.c(125): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+Action.c(128): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+Action.c(128): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+Action.c(132): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(132): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(133): web_url("open_registration_page") started  	[MsgId: MMSG-26355]
+Action.c(133): Found resource "http://localhost:1080/WebTours/profileValidate.js" in HTML "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(133): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(133): Resource "http://pki.goog/repo/certs/gts1c3.der" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(133): Resource "http://pki.goog/repo/certs/gtsr1.der" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(133): Registered web_reg_find successful for "Text=<B>First time registering? Please complete the form below.</B>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(133): web_url("open_registration_page") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(148): Notify: Transaction "ToRegistrationPage" ended with a "Pass" status (Duration: 0.2822 Wasted Time: 0.0056).
+Action.c(153): Notify: Transaction "Registration" started.
+Action.c(155): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(155): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(160): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(160): Notify: Parameter Substitution: parameter "login" =  "vgziovuei"
+Action.c(160): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(161): web_submit_data("registration") started  	[MsgId: MMSG-26355]
+Action.c(161): Notify: Parameter Substitution: parameter "login" =  "vgziovuei"
+Action.c(161): Notify: Parameter Substitution: parameter "password" =  "552122341"
+Action.c(161): Notify: Parameter Substitution: parameter "password" =  "552122341"
+Action.c(161): Notify: Parameter Substitution: parameter "newFirstName" =  "Pavel"
+Action.c(161): Notify: Parameter Substitution: parameter "newLastName" =  "Montana"
+Action.c(161): Notify: Parameter Substitution: parameter "newStreetUser" =  "Livnevaya"
+Action.c(161): Notify: Parameter Substitution: parameter "newCityUser" =  "Moscow"
+Action.c(161): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(161): Registered web_reg_find successful for "Text=Thank you, <b>vgziovuei</b>, for registering and welcome to the Web Tours family." (count=1)  	[MsgId: MMSG-26364]
+Action.c(161): web_submit_data("registration") was successful, 1082 body bytes, 376 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(181): Notify: Transaction "Registration" ended with a "Pass" status (Duration: 0.1419 Wasted Time: 0.0041).
+Action.c(186): Notify: Transaction "LogIn" started.
+Action.c(188): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(188): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
+Action.c(188): web_remove/revert_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(190): web_remove_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(190): Previous automatically added web header for "Upgrade-Insecure-Requests" removed  	[MsgId: MMSG-26587]
+Action.c(190): web_remove/revert_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(192): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(192): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(195): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(195): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(200): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(200): Notify: Parameter Substitution: parameter "login" =  "vgziovuei"
+Action.c(200): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(201): web_url("open_home_page") started  	[MsgId: MMSG-26355]
+Action.c(201): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(201): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(201): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(201): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(201): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(201): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(201): Registered web_reg_find successful for "Text=Welcome, <b>vgziovuei</b>, to the Web Tours reservation pages." (count=1)  	[MsgId: MMSG-26364]
+Action.c(201): web_url("open_home_page") was successful, 5899 body bytes, 1889 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(210): Notify: Transaction "LogIn" ended with a "Pass" status (Duration: 0,2378 Wasted Time: 0,0066).
+Action.c(214): Notify: Transaction "LogOut" started.
+Action.c(216): web_add_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(216): web_add_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(219): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(219): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+../fileDat/lib.h(3): web_reg_find started  	[MsgId: MMSG-26355]
+../fileDat/lib.h(3): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../fileDat/lib.h(4): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+../fileDat/lib.h(4): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+../fileDat/lib.h(4): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+../fileDat/lib.h(4): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+../fileDat/lib.h(4): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+../fileDat/lib.h(4): Registered web_reg_find successful for "Text=To make reservations,please enter your account information to the left" (count=1)  	[MsgId: MMSG-26364]
+../fileDat/lib.h(4): web_url("SignOff Button") was successful, 2167 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(226): Notify: Transaction "LogOut" ended with a "Pass" status (Duration: 0,1756 Wasted Time: 0,0044).
+Action.c(229): Notify: Transaction "UC2_Registration" ended with a "Pass" status (Duration: 2,2448 Wasted Time: 0,1519).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

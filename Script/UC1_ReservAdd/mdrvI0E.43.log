@@ -1,0 +1,45 @@
+Error: missing newline in D:\VuGen\Scripts\UC1_ReservAddView\..\fileDat\users.dat	[MsgId: MERR-13874]
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(26): web_add_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+Action.c(26): web_add_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+Action.c(29): web_add_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+Action.c(29): web_add_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+Action.c(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(44): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(44): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(46): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(46): Error -27792: Failed to connect to server "localhost:1080": [10061] Connection refused  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(46): Warning -26200: At least one of the resources specified by EXTRARES has not been downloaded due to the above error(s)  	[MsgId: MWAR-26200]
+Action.c(46): Error -35048: No match found for the requested parameter "userSession". Check whether the tag with specific attributes exists in the response data  	[MsgId: MERR-35048]
+Action.c(46): Error -26366: "Text=Welcome to the Web Tours site." not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(46): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Action.c(26): web_add_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+Action.c(26): web_add_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+Action.c(29): web_add_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+Action.c(29): web_add_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+Action.c(33): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(33): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(44): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(44): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(46): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(46): Error -27792: Failed to connect to server "localhost:1080": [10061] Connection refused  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Action.c(46): Warning -26200: At least one of the resources specified by EXTRARES has not been downloaded due to the above error(s)  	[MsgId: MWAR-26200]
+Action.c(46): Error -35048: No match found for the requested parameter "userSession". Check whether the tag with specific attributes exists in the response data  	[MsgId: MERR-35048]
+Action.c(46): Error -26366: "Text=Welcome to the Web Tours site." not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(46): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

@@ -1,0 +1,4 @@
+[hosts]
+localhost=
+pki.goog=
+update.googleapis.com=
